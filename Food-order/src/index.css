@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Jacquard+24+Charted&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Jacquard+24+Charted&family=Lobster&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,13 +11,14 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
+  background: linear-gradient(#21424a, #21424a);
   color: #d9e2f1;
   min-height: 100vh;
 }
 
 #main-header {
   display: flex;
+  /* font-style: italic; */
   justify-content: space-between;
   align-items: center;
   padding: 3rem 10%;
@@ -41,18 +44,18 @@ body {
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-family: "Abril Fatface", serif;
+  font-weight: 500;
   font-size: 2rem;
   margin: 0;
-  color: #ffc404;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
+  color: #9bb2b5;
+  letter-spacing: 0.1rem;
+  /* text-transform: uppercase; */
 }
 
 #meals {
   width: 90%;
-  max-width: 70rem;
+  max-width: 75rem;
   list-style: none;
   margin: 2rem auto;
   padding: 1rem;
@@ -78,13 +81,16 @@ h1 {
 
 .meal-item img {
   width: 100%;
-  height: 20rem;
+  height: 23rem;
   object-fit: cover;
 }
 
 .meal-item h3 {
   font-size: 1.5rem;
+  font-family: "Great Vibes", cursive;
+  /* font-style: italic; */
   font-weight: bold;
+  letter-spacing: 0.1rem;
   margin: 0.75rem 0;
 }
 
@@ -251,7 +257,13 @@ h1 {
 .error{
   color: rgb(165, 29, 29);
   background-color: rgb(214, 124, 124);
-  padding-left: 35rem;
+  /* padding-left: 35rem; */
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  margin: 0;
+  border-radius: 4px;
 }
 
 @keyframes fade-slide-up {
